@@ -2,7 +2,7 @@
 require 'sinatra'
 
 get '/' do
-  "Hello World"
+  "Welcome to Jon's World"
 end
 
 get '/blah' do

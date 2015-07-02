@@ -1,1 +1,4 @@
-This is a sinatra server
+Jon Rose Portfolio
+===
+
+This is my coding portfolio.

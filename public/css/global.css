@@ -27,11 +27,11 @@ div#heading h3{
 
 .banner h1, .banner h4{
 	color: #000000;
+	text-shadow: 2px 2px #ffffff;
 	font-size: 400%;
 }
 
 .banner h4{
-	color: #000000;
 	font-size: 250%;
 }
 

@@ -1,0 +1,137 @@
+
+
+div#heading{
+	/*background-image: url("http://www.elementsbathandbody.com/images/T/Tropical%20Musk.jpg");*/
+	position: fixed;
+	background-color: #03A9F4;
+	width: 100%;
+	height: 130px;
+}	
+div#heading h1{
+	padding-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: white;
+	font-size: 300%;
+	text-align: left;
+}
+
+div#heading h3{
+	padding-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 100%;
+	color: white;
+	text-align: left;
+}
+
+.banner h1, .banner h4{
+	color: #000000;
+	font-size: 400%;
+}
+
+.banner h4{
+	color: #000000;
+	font-size: 250%;
+}
+
+h1, h4, h3, h5{
+	text-align: center;
+	color: black;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+div#body{
+	padding-top: 130px;
+	width: 100%;
+	height: 100%;
+
+}
+
+a{
+	color: #FFFFFF;
+	font-size: 90%;
+	text-align: center;
+}
+a:hover { 
+	text-decoration: none;
+}
+
+div#content{
+	background-color: #03A9F4;
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+div#menu{
+	width: 600px;
+	height: 35px;
+	text-align: center;
+}
+
+.table{
+	display: table; 
+	margin: 0 auto;
+}
+
+p{
+	color: #4169E1;
+}
+
+li {
+	font-size: 125%;
+	float: left;
+	list-style-type: none;
+  	padding-right: 30px;
+  	display: inline;
+}
+
+ul#menu{
+	padding-left: 90px;
+}
+
+div#blog-area{
+	background-color: #FFFFFF;
+	width: 90%;
+	height: 100%;	
+	margin: 0 auto;
+}
+
+div.blog-entry{ 
+	margin: 0 auto;
+	width: 90%;
+	border-bottom-style: solid;
+	border-color: #B6B6B6;
+	border-width: 1px;
+}
+
+.blog-entry h3, .blog-entry h5{
+	padding-left: 10px;
+	color: black;
+	text-align: left;
+	float: left;
+}
+
+.blog-entry h5{
+	clear: left;
+}
+
+.blog-entry img{
+	height: 100px;
+	width: 200px;
+	margin-left: 300px;
+}
+
+.banner{
+	width: 100%;
+	height: 100%;
+	background-image: url("http://archetypon.net/preview/photographos/vii/panorama/files/page3-1003-full.jpg");
+	background-size: 100% 100%;
+}
+
+.blog-entry p{
+	padding-left: 10px;
+	color: black;
+	font-family: 'Roboto Condensed', sans-serif;
+}

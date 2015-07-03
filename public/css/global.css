@@ -1,30 +1,47 @@
 
+p{
+	color: #4169E1;
+	font-weight: bold;
+	font-size: 120%;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+div#heading, div#content, div.banner{
+	margin: -1em;
+	padding-right: 2em;
+}
+
+div.banner{
+	margin-right: 0;
+}
+
 
 div#heading{
 	position: fixed;
 	background-color: #03A9F4;
 	width: 100%;
-	height: 145px;
 }	
 div#heading h1{
-	padding-left: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	padding-left: 2rem;
+	margin-top: 0.2em;
+	margin-bottom: 0;
 	color: white;
 	font-size: 350%;
 	text-align: left;
 }
 
 div#heading h3{
-	padding-left: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	padding-left: 2rem;
+	margin-top: 0.2em;
+	margin-bottom: 0;
 	font-size: 150%;
 	color: white;
 	text-align: left;
 }
 
 .banner h1, .banner h4{
+	width: 100%;
 	color: #000000;
 	text-shadow: 2px 2px #ffffff;
 	font-size: 400%;
@@ -37,7 +54,6 @@ div#heading h3{
 h1, h4, h3, h5{
 	text-align: center;
 	color: black;
-	font-family: 'Roboto Condensed', sans-serif;
 }
 
 div#body{
@@ -49,11 +65,13 @@ div#body{
 
 a{
 	color: #FFFFFF;
-	font-size: 120%;
+	font-size: 140%;
 	text-align: center;
-}
-a:hover { 
 	text-decoration: none;
+}
+
+a:hover { 
+	color: #607D8B;
 }
 
 div#content{
@@ -63,41 +81,38 @@ div#content{
 	height: 100%;
 }
 
-div#menu{
-	width: 600px;
-	height: 35px;
-	text-align: center;
-}
 
-.table{
-	display: table; 
+div.table{
+	display: table;
 	margin: 0 auto;
 }
 
-p{
-	color: #4169E1;
+ul#menu{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	margin-bottom: 0.7em;
+	padding-left: 0; 
 }
 
 li {
-	font-size: 125%;
-	float: left;
 	list-style-type: none;
-  	padding-right: 30px;
+  	padding-right: 2em;
   	display: inline;
+  	text-align: center;
 }
 
-ul#menu{
-	padding-left: 70px;
-}
 
 div#blog-area{
-	background-color: #FFFFFF;
+	background-color: #03A9F4;
 	width: 90%;
 	height: 100%;	
 	margin: 0 auto;
 }
 
 div.blog-entry{ 
+	background-color: #FFFFFF;
+	padding: 1em;
 	margin: 0 auto;
 	width: 90%;
 	border-bottom-style: solid;
@@ -105,14 +120,20 @@ div.blog-entry{
 	border-width: 1px;
 }
 
+.blog-entry h3{
+	font-size: 200%;
+}
+
 .blog-entry h3, .blog-entry h5{
 	padding-left: 10px;
 	color: black;
 	text-align: left;
 	float: left;
+	margin: 0;
 }
 
 .blog-entry h5{
+	font-size: 120%;
 	clear: left;
 }
 
@@ -132,5 +153,4 @@ div.blog-entry{
 .blog-entry p{
 	padding-left: 10px;
 	color: black;
-	font-family: 'Roboto Condensed', sans-serif;
 }

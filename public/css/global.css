@@ -177,6 +177,7 @@ div#footer{
 
 p{
 	color: #000000;
-	font-weight: bold;
+	/*font-weight: bold;*/
+	font-family: arial;
 	padding-left: 2rem;
 }

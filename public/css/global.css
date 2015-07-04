@@ -9,14 +9,14 @@ div#heading, div.banner /* div#content, div.banner, div#footer, div#blogarea*/{
 	margin-left: -1em;
 }
 
-div#about, div#contact {
+div#about {
 	position: relative;
-	top: -10vw;
+	top: -18vh;
 }
 
-div#portfolio{
+div#portfolio, div#contact{
 	position: relative;
-	top: -15vw;
+	top: -20vh;
 }
 
 div#heading{
@@ -81,7 +81,6 @@ a:hover {
 }
 
 div#content{
-	/*background-color: #B6B6B6;/*#03A9F4;*/
 	float: left;
 	width: 100%;
 	height: 100%;
@@ -110,7 +109,6 @@ li {
 
 
 div#blog-area{
-	/*background-color: #B6B6B6;*/
 	height: 100%;	
 	width:100%;
 }
@@ -121,8 +119,6 @@ div.blog-entry{
 	margin-left: -1em;
 	padding-bottom: 5em;
 	padding-right: 8px;
-/*	border-bottom-style: solid;
-	border-color: #B6B6B6;*/
 }
 
 .blog-entry h3{
@@ -153,7 +149,7 @@ h3.section-title{
 	padding-bottom: 15vw;
 	height: 100%;
 	background-image: url("http://archetypon.net/preview/photographos/vii/panorama/files/page3-1003-full.jpg");
-	background-size: 100% 100%;
+	background-size: cover;
 }
 
 .blog-entry p{
@@ -164,7 +160,8 @@ h3.section-title{
 
 div#footer{
 	clear: both;
-	background-color: #B6B6B6;
+	background-color: #FFFFFF;
+	padding-top: 1em;
 	margin-bottom: -1em;
 }
 
@@ -190,12 +187,22 @@ p{
 }
 
 div#mywork{
-	padding-top: 10em;
-	background-image: url("../assets/work.png");
+	padding-top: 2em;
+	background-image: url("../assets/worksmall.jpg");
 	background-size: 100% 120%;
-	padding-bottom: 40em;
+	padding-bottom: 48em;
 }
 
-div#mywork h3{
+div#mywork h3, div#contactme h3{
 	color: #FFFFFF;
 }
+div#contactme h3{
+	color: #000000;
+}
+div#contactme{
+	padding-top: 1em;
+	background-image: url("../assets/contactpic.jpg");
+	background-size: cover;
+	padding-bottom: 48em;
+}
+

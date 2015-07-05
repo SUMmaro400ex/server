@@ -1,54 +1,19 @@
-
 body{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
 	margin-right: 0;
-}
-
-h1, h4, h3, h5{
 	text-align: center;
-	color: black;
 }
 
-p{
-	color: #000000;
-	font-family: arial;
-	text-align: justify;
-	margin: 0 auto;
-	font-size: 3vh;
-	width: 80%;
+h1{
+	margin-top: 5vh;
+	font-size: 10vh;
+	color: #FFFFFF;
 }
 
-div#heading, div.banner {
+div#aboutme {
 	margin-top: -1em;
 	margin-left: -1em;
-}
-
-div#portfolio, div#contact, div#about{
-	position: relative;
-	top: -15vh;
-}
-
-
-div#heading{
-	position: fixed;
-	background-color: #03A9F4;
-	width: 100%;
-	height: 17vh;
-}	
-
-div#heading h1{
-	padding-left: 2rem;
-	margin-top: 4vh;
-	margin-bottom: 0;
-	color: white;
-	font-size: 6vh;
-	text-align: left;
-}
-
-.banner h1{
-	text-shadow: 0.03em 0.03em #FFFFFF;
-	font-size: 10vh;
-	padding-top: 30vh;
 }
 
 a{
@@ -57,25 +22,26 @@ a{
 	font-size: 3vh;
 }
 
-a.textfield{
-	color: blue;
-	text-decoration: underline;
-}
-
 a:hover { 
 	color: #607D8B;
+	padding-top: 4vh;
+	border-top: 3px solid white;
 }
 
 
 ul#menu{
-	margin-top: 1vh;
-	padding-left: 2rem;
+	margin: 0 auto;
+	margin-top: 6vh;
+	padding-top: 4vh;
+	width: 60%;
+	border-top: 1px solid white;
 }
 
 li {
 	list-style-type: none;
   	padding-right: 3vw;
   	display: inline;
+
 }
 
 div.blog-entry{ 
@@ -83,7 +49,7 @@ div.blog-entry{
 	margin-left: -1em;
 	padding-bottom: 5em;
 	padding-top: 2em;
-	padding-right: 8px;
+	padding-right: 1em;
 	height: 100vh;
 	background-size: cover;
 }
@@ -97,28 +63,27 @@ h3.section-title{
 	margin-top: 0;
 }
 
-
-.banner{
-	width: 100%;
-	padding-right: 8px;
-	height: 110vh;
-	background-image: url("http://archetypon.net/preview/photographos/vii/panorama/files/page3-1003-full.jpg");
-	background-size: cover;
-}
-
 #profpic{
 	width: 100%;
 	text-align: center;
 }
 
 #profilepic{
-	width: 20vmax;
-	height: 20vmax;
+	width: 15vmax;
+	height: 15vmax;
 }
 
 
 div#aboutme{
-	height: 100%;
+	background-image: url("../assets/tropical.jpg");
+	height: 100vh;
+}
+
+#aboutme p{
+	margin: 0 auto;
+	font-size: 3vh;
+	width: 60%;
+	color: #FFFFFF;
 }
 
 div#mywork h3{
@@ -141,6 +106,5 @@ div#footer{
 
 #footer p{
 	width: 100%;
-	text-align: center;
-	font-size: 2vh;
+	font-size: 3vh;
 }

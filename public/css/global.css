@@ -4,77 +4,61 @@ body{
 	margin-right: 0;
 }
 
-div#heading, div.banner /* div#content, div.banner, div#footer, div#blogarea*/{
-	margin-top: -1em;
-	margin-left: -1em;
-}
-
-div#about {
-	position: relative;
-	top: -18vh;
-}
-
-div#portfolio, div#contact{
-	position: relative;
-	top: -20vh;
-}
-
-div#heading{
-	position: fixed;
-	background-color: #03A9F4;
-	width: 100%;
-}	
-div#heading h1{
-	padding-left: 2rem;
-	margin-top: 0.2em;
-	margin-bottom: 0;
-	color: white;
-	font-size: 350%;
-	text-align: left;
-}
-
-div#heading h3{
-	padding-left: 2rem;
-	margin-top: 0.2em;
-	margin-bottom: 0;
-	font-size: 150%;
-	color: white;
-	text-align: left;
-}
-
-.banner h1, .banner h4{
-	width: 100%;
-	color: #000000;
-	text-shadow: 0.03em 0.03em #FFFFFF;
-	font-size: 400%;
-	margin-top: 0;
-	padding-top: 30vh;
-}
-
-.banner h4{
-	font-size: 250%;
-}
-
 h1, h4, h3, h5{
 	text-align: center;
 	color: black;
 }
 
-div#body{
-	padding-top: 9em;
+p{
+	color: #000000;
+	font-family: arial;
+	text-align: justify;
+	margin: 0 auto;
+	font-size: 3vh;
+	width: 80%;
+}
+
+div#heading, div.banner {
+	margin-top: -1em;
+	margin-left: -1em;
+}
+
+div#portfolio, div#contact, div#about{
+	position: relative;
+	top: -15vh;
+}
+
+
+div#heading{
+	position: fixed;
+	background-color: #03A9F4;
+	width: 100%;
+	height: 17vh;
+}	
+
+div#heading h1{
+	padding-left: 2rem;
+	margin-top: 4vh;
+	margin-bottom: 0;
+	color: white;
+	font-size: 6vh;
+	text-align: left;
+}
+
+.banner h1{
+	text-shadow: 0.03em 0.03em #FFFFFF;
+	font-size: 10vh;
+	padding-top: 30vh;
 }
 
 a{
 	color: #FFFFFF;
-	font-size: 120%;
-	text-align: center;
 	text-decoration: none;
+	font-size: 3vh;
 }
 
 a.textfield{
 	color: blue;
-	font-size: 100%;
-	text-align: left;
 	text-decoration: underline;
 }
 
@@ -82,83 +66,70 @@ a:hover {
 	color: #607D8B;
 }
 
-div#content{
-	float: left;
-	width: 100%;
-	height: 100%;
-}
-
-
-div.table{
-	display: table;
-	margin: 0 auto;
-}
 
 ul#menu{
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	margin-bottom: 1em;
-	padding-left: 5em; 
+	margin-top: 1vh;
+	padding-left: 2rem;
 }
 
 li {
 	list-style-type: none;
-  	padding-right: 5em;
+  	padding-right: 3vw;
   	display: inline;
-  	text-align: center;
-}
-
-
-div#blog-area{
-	height: 100%;	
-	width:100%;
 }
 
 div.blog-entry{ 
-	background-color: #FFFFFF;
 	width: 100%;
 	margin-left: -1em;
 	padding-bottom: 5em;
+	padding-top: 2em;
 	padding-right: 8px;
+	height: 100vh;
+	background-size: cover;
 }
 
-.blog-entry h3{
-	font-size: 200%;
-}
 
 h3.section-title{
 	text-align: center;
 	width: 100%;
-	font-size: 250%;
-}
-
-.blog-entry h3, .blog-entry h5{
+	font-size: 8vh;
 	color: black;
-	float: left;
-	margin: 0;
+	margin-top: 0;
 }
 
-.blog-entry h5{
-	font-size: 120%;
-	clear: left;
-}
 
 .banner{
 	width: 100%;
 	padding-right: 8px;
-	/*padding-top: 15vw;*/
-	/*padding-bottom: 15vw;*/
-	/*height: 100%;*/
-	height: 90vh;
+	height: 110vh;
 	background-image: url("http://archetypon.net/preview/photographos/vii/panorama/files/page3-1003-full.jpg");
 	background-size: cover;
 }
 
-.blog-entry p{
-	padding-left: 1em;
-	color: black;
-	font-size: 120%;
+#profpic{
+	width: 100%;
+	text-align: center;
+}
+
+#profilepic{
+	width: 20vmax;
+	height: 20vmax;
+}
+
+
+div#aboutme{
+	height: 100%;
+}
+
+div#mywork h3{
+	color: #FFFFFF;
+}
+div#mywork{
+	background-image: url("../assets/worksmall.jpg");
+}
+
+div#contactme{
+	background-image: url("../assets/contactpic.jpg");
 }
 
 div#footer{
@@ -168,44 +139,8 @@ div#footer{
 	margin-bottom: -1em;
 }
 
-#profilepic{
-	margin-top: 2em;
-	width: 20%;
-	height: 20%;
-}
-
-#profpic{
+#footer p{
 	width: 100%;
 	text-align: center;
+	font-size: 2vh;
 }
-
-
-p{
-	color: #000000;
-	font-family: arial;
-	/*text-align: center;*/
-	margin: 0 auto;
-	padding-left: 2rem;
-	width: 70%;
-}
-
-div#mywork{
-	padding-top: 2em;
-	background-image: url("../assets/worksmall.jpg");
-	background-size: 100% 120%;
-	padding-bottom: 48em;
-}
-
-div#mywork h3, div#contactme h3{
-	color: #FFFFFF;
-}
-div#contactme h3{
-	color: #000000;
-}
-div#contactme{
-	padding-top: 1em;
-	background-image: url("../assets/contactpic.jpg");
-	background-size: cover;
-	padding-bottom: 48em;
-}
-

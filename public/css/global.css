@@ -20,6 +20,7 @@ a{
 	color: #FFFFFF;
 	text-decoration: none;
 	font-size: 3vh;
+	font-weight: bolder;
 }
 
 a:hover { 
@@ -31,7 +32,7 @@ a:hover {
 
 ul#menu{
 	margin: 0 auto;
-	margin-top: 6vh;
+	margin-top: 4vh;
 	padding-top: 4vh;
 	width: 60%;
 	border-top: 1px solid white;
@@ -69,8 +70,8 @@ h3.section-title{
 }
 
 #profilepic{
-	width: 20vmax;
-	height: 20vmax;
+	width: 17vmax;
+	height: 17vmax;
 }
 
 

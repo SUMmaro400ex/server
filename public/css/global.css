@@ -22,7 +22,7 @@ a{
 	font-size: 4vh;
 }
 
-a:hover { 
+ul a:hover { 
 	color: #607D8B;
 	padding-top: 4vh;
 	border-top: 3px solid white;
@@ -79,7 +79,7 @@ div#aboutme{
 	height: 100vh;
 }
 
-#aboutme p{
+p{
 	margin: 0 auto;
 	font-size: 3vh;
 	width: 80%;
@@ -97,6 +97,22 @@ div#contactme{
 	background-image: url("../assets/contactpic.jpg");
 }
 
+#contactme p{
+	color: black;
+	margin-bottom: 15vh;
+}
+.social{
+	margin-left: 3vw;
+	margin-right: 3vw;
+	opacity: 0.6;
+	width: 10vmax;
+	height: 10vmax;
+}
+
+.social:hover {
+	opacity: 1;
+}
+
 div#footer{
 	clear: both;
 	background-color: #FFFFFF;
@@ -106,5 +122,6 @@ div#footer{
 
 #footer p{
 	width: 100%;
-	font-size: 3vh;
+	font-size: 2vh;
+	color: #000000;
 }

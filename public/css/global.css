@@ -18,7 +18,7 @@ div#aboutme {
 a{
 	color: #FFFFFF;
 	text-decoration: none;
-	font-size: 4vh;
+	font-size: 4vmin;
 }
 
 ul a:hover { 
@@ -32,13 +32,13 @@ ul#menu{
 	margin: 0 auto;
 	margin-top: 4vh;
 	padding-top: 4vh;
-	width: 80%;
+	width: 75%;
 	border-top: 1px solid white;
 }
 
 li {
 	list-style-type: none;
-  	padding-right: 3vw;
+  	padding-right: 4vw;
   	display: inline;
 
 }
@@ -85,9 +85,31 @@ p{
 	color: #FFFFFF;
 }
 
-div#mywork h3{
-	color: #FFFFFF;
+div#myskills{
+	background-image: url("../assets/skills.jpg");
+	height: 100vh;
 }
+
+div#myskills h3{
+	margin-bottom: 0;
+}
+
+div#langskills{
+	padding-left: 9vw;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+div#myskills img{
+	float: left;
+	margin-top: 5vh;
+	margin-left: 2.5vw;
+	margin-right: 2.5vw;
+	width: 15vmax;
+
+}
+
 div#mywork{
 	background-image: url("../assets/worksmall.jpg");
 }
@@ -207,4 +229,11 @@ div#footer{
 	width: 100%;
 	font-size: 2vh;
 	color: #000000;
+}
+
+#footer a{
+	color: blue;
+	text-decoration: underline;
+	font-size: 2vh;
+	margin: 0 auto;
 }

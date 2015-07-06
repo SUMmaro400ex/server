@@ -1,6 +1,12 @@
+html, body {
+    overflow-x: hidden;
+}
+
 body{
 	font-family: 'Raleway', sans-serif;
-	margin-right: 0;
+	margin: 0 auto;
+	/*margin-right: 1em;*/
+	/*width: 100vw;*/
 	text-align: center;
 }
 
@@ -11,7 +17,8 @@ h1{
 }
 
 div#aboutme {
-	margin-top: -1em;
+	/*margin-top: -1em;*/
+	padding-top: 1em;
 	margin-left: -1em;
 }
 
@@ -88,6 +95,7 @@ p{
 div#myskills{
 	background-image: url("../assets/skillsback.jpg");
 	height: 100vh;
+	background-size: 100% 100%;
 }
 
 div#myskills h3{
@@ -97,15 +105,15 @@ div#myskills h3{
 div#langskills{
 	padding-left: 9vw;
 	width: 100%;
-	height: 100%;
+	height: 80%;
 	text-align: center;
 }
 
 div#myskills img{
 	float: left;
 	margin-top: 5vh;
-	margin-left: 2.5vw;
-	margin-right: 2.5vw;
+	/*margin-left: 2.5vw;*/
+	padding-right: 2.5vw;
 	width: 15vmax;
 
 }
@@ -239,7 +247,7 @@ div#footer{
 }
 
 #mario{
-	padding-left: 20vw;
+	padding-left: 45vw;
 	padding-top: 10vh;
 }
 

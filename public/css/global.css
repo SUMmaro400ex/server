@@ -59,7 +59,7 @@ h3.section-title{
 	text-align: center;
 	width: 100%;
 	font-size: 8vh;
-	color: black;
+	color: white;
 	margin-top: 0;
 }
 
@@ -98,8 +98,8 @@ div#contactme{
 }
 
 #contactme p{
-	color: black;
 	margin-bottom: 15vh;
+	color: beige;
 }
 .social{
 	margin-left: 3vw;
@@ -139,7 +139,8 @@ div#footer{
 }
 .work p{
 	color: transparent;
-	font-size: 1.5vmax;
+	font-size: 3vmin;
+	padding-top: 1vmax;
 }
 
 .work:hover p{
@@ -147,9 +148,9 @@ div#footer{
 }
 
 #votesim{
-	margin-left: 10vmin;
-	height: 30vmin;
-	width: 30vmin;
+	margin-left: 15vmin;
+	height: 25vmin;
+	width: 25vmin;
 	border-radius: 1vh;
 	text-align: center;
 	background: url("../assets/votesim.jpg")
@@ -163,9 +164,9 @@ div#footer{
 }
 
 #web{
-	margin-left: 10vmin;
-	height: 30vmin;
-	width: 30vmin;
+	margin-left: 15vmin;
+	height: 25vmin;
+	width: 25vmin;
 	border-radius: 1vh;
 	text-align: center;
 	background: url("../assets/website.jpg")

@@ -103,8 +103,8 @@ div#myskills h3{
 }
 
 div#langskills{
-	padding-left: 9vw;
-	width: 100%;
+	padding-left: 15vw;
+	width: 80%;
 	height: 80%;
 	text-align: center;
 }
@@ -247,8 +247,7 @@ div#footer{
 }
 
 #mario{
-	padding-left: 45vw;
-	padding-top: 10vh;
+	padding-left: 17vw;
 }
 
 .floating{

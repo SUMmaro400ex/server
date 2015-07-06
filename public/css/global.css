@@ -247,7 +247,11 @@ div#footer{
 }
 
 #mario{
-	padding-left: 17vw;
+	clear: both;
+	position: absolute;
+	margin: 0 auto;
+	margin-left: -20vw;
+	padding-top: 30vh;
 }
 
 .floating{

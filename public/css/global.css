@@ -86,7 +86,7 @@ p{
 }
 
 div#myskills{
-	background-image: url("../assets/skills.jpg");
+	background-image: url("../assets/skillsback.jpg");
 	height: 100vh;
 }
 
@@ -236,4 +236,36 @@ div#footer{
 	text-decoration: underline;
 	font-size: 2vh;
 	margin: 0 auto;
+}
+
+#mario{
+	padding-left: 20vw;
+	padding-top: 10vh;
+}
+
+.floating{
+    float: left;
+    -webkit-animation-name: Floatingx;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floating;
+    -moz-animation-duration: 0.5s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+
+}
+
+@-webkit-keyframes Floatingx{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 15px);}
+    to {-webkit-transform: translate(0, -0px);    }    
+}
+    
+@-moz-keyframes Floating{
+    from {-moz-transform:translate(0, 0px);}
+    65% {-moz-transform:translate(0, 15px);}
+    to {-moz-transform: translate(0, -0px);}    
 }

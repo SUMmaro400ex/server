@@ -1,6 +1,5 @@
 body{
 	font-family: 'Raleway', sans-serif;
-	font-weight: lighter;
 	margin-right: 0;
 	text-align: center;
 }
@@ -93,13 +92,97 @@ div#mywork{
 	background-image: url("../assets/worksmall.jpg");
 }
 
+.work{
+	float: left;
+	margin-left: 15vmin;
+	height: 25vmin;
+	width: 25vmin;
+	border-radius: 1vh;
+	text-align: center;
+}
+
+.work:hover{
+	background-size: 100% 100%;
+}
+
+.work h4{
+	font-weight: bolder;
+	color: white;
+	font-size: 3vh;
+	margin-top: -5vh;
+	margin-bottom: 2vh;
+	background-size: 100% 100%;
+}
+.work p{
+	color: transparent;
+	font-size: 3vmin;
+	padding-top: 1vmax;
+}
+
+.work:hover p{
+	color: white;
+}
+
+#votesim{
+	background: url("../assets/votesim.jpg")
+}
+
+#votesim:hover{
+	background:linear-gradient(
+	rgba(0, 0, 0, 0.8),
+	rgba(0, 0, 0, 0.8)),
+	url("../assets/votesim.jpg");
+}
+
+#web{
+	clear: both;
+	margin-top: 10vh;
+	background: url("../assets/website.jpg")
+}
+
+#web:hover{
+	background:linear-gradient(
+	rgba(0, 0, 0, 0.8),
+	rgba(0, 0, 0, 0.8)),
+	url("../assets/votesim.jpg");
+}
+
+#tip{
+	background: url("../assets/tipnsplit.png");
+}
+
+#tip:hover{
+	background:linear-gradient(
+	rgba(0, 0, 0, 0.8),
+	rgba(0, 0, 0, 0.8)),
+	url("../assets/tipnsplit.png");
+}
+
+#game{
+	margin-top: 10vh;
+	background: url("../assets/thehouse.jpg");
+}
+
+#game:hover{
+	background:linear-gradient(
+	rgba(0, 0, 0, 0.8),
+	rgba(0, 0, 0, 0.8)),
+	url("../assets/thehouse.jpg");
+}
+
 div#contactme{
 	background-image: url("../assets/contactpic.jpg");
 }
 
+#contactme h3{
+	color: black;
+}
+
 #contactme p{
 	margin-bottom: 15vh;
-	color: beige;
+	color: black;
+	font-family: 'Arial';
+	font-weight: 300;
 }
 .social{
 	margin-left: 3vw;
@@ -125,57 +208,3 @@ div#footer{
 	font-size: 2vh;
 	color: #000000;
 }
-
-.work{
-	float: left;
-}
-
-.work h4{
-	font-weight: bolder;
-	color: white;
-	font-size: 3vh;
-	margin-top: -5vh;
-	margin-bottom: 2vh;
-}
-.work p{
-	color: transparent;
-	font-size: 3vmin;
-	padding-top: 1vmax;
-}
-
-.work:hover p{
-	color: white;
-}
-
-#votesim{
-	margin-left: 15vmin;
-	height: 25vmin;
-	width: 25vmin;
-	border-radius: 1vh;
-	text-align: center;
-	background: url("../assets/votesim.jpg")
-}
-
-#votesim:hover{
-	background:linear-gradient(
-	rgba(0, 0, 0, 0.8),
-	rgba(0, 0, 0, 0.8)),
-	url("../assets/votesim.jpg");
-}
-
-#web{
-	margin-left: 15vmin;
-	height: 25vmin;
-	width: 25vmin;
-	border-radius: 1vh;
-	text-align: center;
-	background: url("../assets/website.jpg")
-}
-
-#web:hover{
-	background:linear-gradient(
-	rgba(0, 0, 0, 0.8),
-	rgba(0, 0, 0, 0.8)),
-	url("../assets/votesim.jpg");
-}
-

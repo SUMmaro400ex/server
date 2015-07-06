@@ -125,3 +125,56 @@ div#footer{
 	font-size: 2vh;
 	color: #000000;
 }
+
+.work{
+	float: left;
+}
+
+.work h4{
+	font-weight: bolder;
+	color: white;
+	font-size: 3vh;
+	margin-top: -5vh;
+	margin-bottom: 2vh;
+}
+.work p{
+	color: transparent;
+	font-size: 1.5vmax;
+}
+
+.work:hover p{
+	color: white;
+}
+
+#votesim{
+	margin-left: 10vmin;
+	height: 30vmin;
+	width: 30vmin;
+	border-radius: 1vh;
+	text-align: center;
+	background: url("../assets/votesim.jpg")
+}
+
+#votesim:hover{
+	background:linear-gradient(
+	rgba(0, 0, 0, 0.8),
+	rgba(0, 0, 0, 0.8)),
+	url("../assets/votesim.jpg");
+}
+
+#web{
+	margin-left: 10vmin;
+	height: 30vmin;
+	width: 30vmin;
+	border-radius: 1vh;
+	text-align: center;
+	background: url("../assets/website.jpg")
+}
+
+#web:hover{
+	background:linear-gradient(
+	rgba(0, 0, 0, 0.8),
+	rgba(0, 0, 0, 0.8)),
+	url("../assets/votesim.jpg");
+}
+

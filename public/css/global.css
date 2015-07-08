@@ -5,8 +5,6 @@ html, body {
 body{
 	font-family: 'Raleway', sans-serif;
 	margin: 0 auto;
-	/*margin-right: 1em;*/
-	/*width: 100vw;*/
 	text-align: center;
 }
 
@@ -17,19 +15,23 @@ h1{
 }
 
 div#aboutme {
-	/*margin-top: -1em;*/
 	padding-top: 1em;
 	margin-left: -1em;
 }
 
 a{
-	color: #FFFFFF;
+	color: lightblue;
+	text-shadow:
+    1.5px 1.5px 0 #000,
+    1.5px 1.5px 0 #000,
+    1.5px 1.5px 0 #000,
+    1.5px 1.5px 0 #000; 
 	text-decoration: none;
 	font-size: 4vmin;
 }
 
 ul a:hover {
-	color: #607D8B;
+	color: white;
 	padding-top: 4vh;
 	border-top: 3px solid white;
 }
@@ -81,8 +83,27 @@ h3.section-title{
 
 
 div#aboutme{
-	background-image: url("../assets/tropical.jpg");
+	/*background-image: url("../assets/tropical.jpg");*/
+	background-image: url("http://farm8.staticflickr.com/7088/6972960976_3136a7def0_o.gif");
 	height: 100vh;
+}
+
+div#aboutme h1{
+	color: lightblue;
+    text-shadow:
+    1.5px 1.5px 0 #000,
+    1.5px 1.5px 0 #000,
+    1.5px 1.5px 0 #000,
+    1.5px 1.5px 0 #000; 
+}
+
+div#aboutme p{
+	color: lightblue;
+    text-shadow:
+    1.5px 1.5px 0 #000,
+    1.5px 1.5px 0 #000,
+    1.5px 1.5px 0 #000,
+    1.5px 1.5px 0 #000;  
 }
 
 p{
@@ -112,7 +133,6 @@ div#langskills{
 div#myskills img{
 	float: left;
 	margin-top: 5vh;
-	/*margin-left: 2.5vw;*/
 	padding-right: 2.5vw;
 	width: 15vmax;
 

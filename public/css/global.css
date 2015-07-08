@@ -20,7 +20,7 @@ div#aboutme {
 }
 
 a{
-	color: lightblue;
+	color: white;
 	text-shadow:
     1.5px 1.5px 0 #000,
     1.5px 1.5px 0 #000,
@@ -31,7 +31,7 @@ a{
 }
 
 ul a:hover {
-	color: white;
+	color: lightblue;
 	padding-top: 4vh;
 	border-top: 3px solid white;
 }
@@ -89,7 +89,7 @@ div#aboutme{
 }
 
 div#aboutme h1{
-	color: lightblue;
+	color: white;
     text-shadow:
     1.5px 1.5px 0 #000,
     1.5px 1.5px 0 #000,
@@ -98,12 +98,14 @@ div#aboutme h1{
 }
 
 div#aboutme p{
-	color: lightblue;
+	width: 60%;
+	color: white;
+	font-size: 5vmin;
     text-shadow:
-    1.5px 1.5px 0 #000,
-    1.5px 1.5px 0 #000,
-    1.5px 1.5px 0 #000,
-    1.5px 1.5px 0 #000;  
+    1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px 1px 0 #000;  
 }
 
 p{

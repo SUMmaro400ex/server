@@ -30,8 +30,11 @@ div#aboutme {
 	font-size: 4vmin;
 }
 
-ul a:hover {
-	color: lightblue;
+#menu a:hover{
+	color:gray;
+}
+
+ul a:hover{
 	padding-top: 4vh;
 	border-top: 3px solid white;
 }

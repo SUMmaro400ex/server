@@ -28,7 +28,7 @@ a{
 	font-size: 4vmin;
 }
 
-ul a:hover { 
+ul a:hover {
 	color: #607D8B;
 	padding-top: 4vh;
 	border-top: 3px solid white;
@@ -50,7 +50,7 @@ li {
 
 }
 
-div.blog-entry{ 
+div.blog-entry{
 	width: 100%;
 	margin-left: -1em;
 	padding-bottom: 5em;
@@ -272,11 +272,22 @@ div#footer{
 @-webkit-keyframes Floatingx{
     from {-webkit-transform:translate(0, 0px);}
     65% {-webkit-transform:translate(0, 15px);}
-    to {-webkit-transform: translate(0, -0px);    }    
+    to {-webkit-transform: translate(0, -0px);    }
 }
-    
+
 @-moz-keyframes Floating{
     from {-moz-transform:translate(0, 0px);}
     65% {-moz-transform:translate(0, 15px);}
-    to {-moz-transform: translate(0, -0px);}    
+    to {-moz-transform: translate(0, -0px);}
+}
+
+#cat{
+  width: 20vmin;
+  height: 20vmin;
+  clear: both;
+  opacity: 0;
+}
+
+#cat:hover{
+  opacity: 1;
 }

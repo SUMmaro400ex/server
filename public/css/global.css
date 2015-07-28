@@ -14,6 +14,15 @@ h1{
 	color: #FFFFFF;
 }
 
+#contact-top img{
+  width: 5vh;
+  height: 5vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: -3vh;
+  margin: 0vw;
+}
+
 div#aboutme {
 	padding-top: 1em;
 	margin-left: -1em;
@@ -25,7 +34,7 @@ div#aboutme {
     1.5px 1.5px 0 #000,
     1.5px 1.5px 0 #000,
     1.5px 1.5px 0 #000,
-    1.5px 1.5px 0 #000; 
+    1.5px 1.5px 0 #000;
 	text-decoration: none;
 	font-size: 4vmin;
 }
@@ -44,7 +53,7 @@ ul#menu{
 	margin: 0 auto;
 	margin-top: 4vh;
 	padding-top: 4vh;
-	width: 75%;
+	width: 65%;
 	border-top: 1px solid white;
 }
 
@@ -69,7 +78,7 @@ div.blog-entry{
 h3.section-title{
 	text-align: center;
 	width: 100%;
-	font-size: 8vh;
+	font-size: 7vh;
 	color: white;
 	margin-top: 0;
 }
@@ -77,11 +86,11 @@ h3.section-title{
 #profpic{
 	width: 100%;
 	text-align: center;
+  margin-bottom: -5vh;
 }
 
 #profilepic{
-	width: 17vmax;
-	height: 17vmax;
+	width: 22vh;
 }
 
 
@@ -97,18 +106,18 @@ div#aboutme h1{
     1.5px 1.5px 0 #000,
     1.5px 1.5px 0 #000,
     1.5px 1.5px 0 #000,
-    1.5px 1.5px 0 #000; 
+    1.5px 1.5px 0 #000;
 }
 
 div#aboutme p{
 	width: 60%;
 	color: white;
-	font-size: 5vmin;
+	font-size: 4vmin;
     text-shadow:
     1px 1px 0 #000,
     1px 1px 0 #000,
     1px 1px 0 #000,
-    1px 1px 0 #000;  
+    1px 1px 0 #000;
 }
 
 p{
@@ -145,84 +154,48 @@ div#myskills img{
 
 div#mywork{
 	background-image: url("../assets/worksmall.jpg");
+  height: 250vh;
+}
+#work-area{
+  padding-left: 15vw;
 }
 
-.work{
-	float: left;
-	margin-left: 15vmin;
-	height: 25vmin;
-	width: 25vmin;
-	border-radius: 1vh;
-	text-align: center;
+.work-item img{
+  width: 20vw;
+  height: 40vh;
+  float: left;
 }
 
-.work:hover{
-	background-size: 100% 100%;
+.work-item h3{
+  text-align: left;
+  position: relative;
+  margin-left: 22vw;
+  padding-top: 1vh;
+  font-size: 7vh;
 }
 
-.work h4{
-	font-weight: bolder;
-	color: white;
-	font-size: 3vh;
-	margin-top: -7vh;
-	margin-bottom: 2vh;
-	background-size: 100% 100%;
-}
-.work p{
-	color: transparent;
-	font-size: 3vmin;
-	padding-top: 1vmax;
+.work-item p{
+  margin-left: 22vw;
+  width: 70%;
+  text-align: left;
+  color: #000000;
 }
 
-.work:hover p{
-	color: white;
+.work-item a{
+  text-decoration: none;
+  color: blue;
 }
 
-#votesim{
-	background: url("../assets/votesim.jpg")
+.work-item a:hover{
+  font-style:oblique;
 }
-
-#votesim:hover{
-	background:linear-gradient(
-	rgba(0, 0, 0, 0.8),
-	rgba(0, 0, 0, 0.8)),
-	url("../assets/votesim.jpg");
-}
-
-#web{
-	clear: both;
-	margin-top: 10vh;
-	background: url("../assets/website.jpg")
-}
-
-#web:hover{
-	background:linear-gradient(
-	rgba(0, 0, 0, 0.8),
-	rgba(0, 0, 0, 0.8)),
-	url("../assets/votesim.jpg");
-}
-
-#tip{
-	background: url("../assets/tipnsplit.png");
-}
-
-#tip:hover{
-	background:linear-gradient(
-	rgba(0, 0, 0, 0.8),
-	rgba(0, 0, 0, 0.8)),
-	url("../assets/tipnsplit.png");
-}
-
-#game{
-	margin-top: 10vh;
-	background: url("../assets/thehouse.jpg");
-}
-
-#game:hover{
-	background:linear-gradient(
-	rgba(0, 0, 0, 0.8),
-	rgba(0, 0, 0, 0.8)),
-	url("../assets/thehouse.jpg");
+.work-item{
+  background-color: #EEEEEE;
+  height: 40vh;
+  width: 70vw;
+  -webkit-box-shadow: 10px 10px 0px 4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 0px 4px rgba(0,0,0,0.75);
+  box-shadow: 0 50px 25px -25px rgba(0,0,0,0.75);
 }
 
 div#contactme{
@@ -230,12 +203,12 @@ div#contactme{
 }
 
 #contactme h3{
-	color: black;
+	color: white;
 }
 
 #contactme p{
 	margin-bottom: 15vh;
-	color: black;
+	color: white;
 	font-family: 'Arial';
 	font-weight: 300;
 }
@@ -306,7 +279,7 @@ div#footer{
     to {-moz-transform: translate(0, -0px);}
 }
 
-#cat{
+/*#cat{
   width: 20vmin;
   height: 20vmin;
   clear: both;
@@ -315,4 +288,4 @@ div#footer{
 
 #cat:hover{
   opacity: 1;
-}
+}*/

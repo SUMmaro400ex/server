@@ -162,7 +162,7 @@ div#mywork{
 
 .work-item img{
   width: 20vw;
-  height: 40vh;
+  height: 30vh;
   float: left;
 }
 
@@ -170,13 +170,16 @@ div#mywork{
   text-align: left;
   position: relative;
   margin-left: 22vw;
+  margin-bottom: 2vh;
   padding-top: 1vh;
   font-size: 7vh;
+  color: black;
 }
 
 .work-item p{
   margin-left: 22vw;
   width: 70%;
+  font-size: 2.2vh;
   text-align: left;
   color: #000000;
 }
@@ -191,8 +194,8 @@ div#mywork{
 }
 .work-item{
   background-color: #EEEEEE;
-  height: 40vh;
-  width: 70vw;
+  height: 30vh;
+  width: 80vw;
   -webkit-box-shadow: 10px 10px 0px 4px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 0px 4px rgba(0,0,0,0.75);
   box-shadow: 0 50px 25px -25px rgba(0,0,0,0.75);

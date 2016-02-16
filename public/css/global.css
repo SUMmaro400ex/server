@@ -282,7 +282,7 @@ div#footer{
     to {-moz-transform: translate(0, -0px);}
 }
 
-/*#cat{
+#cat{
   width: 20vmin;
   height: 20vmin;
   clear: both;
@@ -291,4 +291,4 @@ div#footer{
 
 #cat:hover{
   opacity: 1;
-}*/
+}

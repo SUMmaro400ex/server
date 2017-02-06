@@ -97,10 +97,11 @@ h3.section-title{
 div#aboutme{
 	/*background-image: url("../assets/tropical.jpg");*/
 	background-image: url("http://farm8.staticflickr.com/7088/6972960976_3136a7def0_o.gif");
-	height: 100vh;
+	height: 70vh;
 }
 
 div#aboutme h1{
+	padding-top: 3vh; 
 	color: white;
     text-shadow:
     1.5px 1.5px 0 #000,
